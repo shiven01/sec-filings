@@ -103,7 +103,7 @@ def parse_sec_index(input_file: str, output_file: str = "master_index_filtered.c
 
 
 if __name__ == "__main__":
-    input_file = "Master Index.idx.backup"
+    input_file = "Master Index.idx"
     
     if not os.path.exists(input_file):
         print(f"Error: File '{input_file}' not found")
